@@ -1,0 +1,15 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 0 15px 0 15px;
+}
+
+.text {
+    text-align: center;
+}
+
+.buttons {
+    width: 50%;
+}

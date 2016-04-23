@@ -1,5 +1,5 @@
 import {redirect} from 'cerebral-module-router';
 
 export default [
-  redirect('/green')
+    redirect('/list')
 ];
