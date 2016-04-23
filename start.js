@@ -3,7 +3,7 @@ var app = require('./server'),
 
 var server = http.createServer(app);
 
-server.listen(80);
+server.listen(process.ENV.PORT || 8080);
 
 if (module.hot) {
 
